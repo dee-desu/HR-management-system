@@ -1,0 +1,164 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+	text-align: center;
+}
+
+
+
+
+
+header {
+
+	background-color: #DF7861 ;
+	position: fixed;
+	display:flex;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+	border-bottom: 2px solid #94B49F;
+	justify-content: space-evenly;
+	vertical-align: middle;
+}
+
+.nav-list {
+	display: flex;
+	gap: 25px;
+	padding: 25px 0;
+}
+
+.nav-item {
+	text-decoration: none;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1C3879;
+	transition: 0.5s;
+}
+
+.nav-item:hover {
+	color: #DF7861;
+}
+
+.header-logo img {
+	height: 40px;
+	padding: 13px 0;
+}
+.header-logo, .nav-list {
+	display: flex;
+}
+
+
+
+
+
+.employees-cards-section h2 {
+	text-align: center;
+	padding: 20px 0 5px 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: #1C3879;
+}
+
+.employee-text-ruler{
+	width: 2%;
+	border: 0.1px solid #607EAA;
+}
+
+.employee-card-main{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 70px 50px 70px;
+	justify-content: space-evenly;
+}
+
+.inner-employees-cards-section{
+	position: relative;
+	width: 220px;
+	height:260px;
+	background-color: #DF7861;
+	top: 35px;
+	border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+	overflow: hidden;
+	transition: height 0.7s;
+}
+
+.inner-employees-cards-section:hover{
+	height: 400px;
+}
+
+.test img{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 3px solid #607EAA;
+	border-radius: 200px;
+}
+
+.test{
+	padding: 10px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+.employee-name {
+	padding: 10px 0 ;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1C3879;
+}
+
+.to-be-hidden {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.20;
+	text-align: center;
+}
+
+.to-hide {
+	display: none;
+	position: relative;
+	width: 220px;
+	top: 500px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.to-hide{
+	display: contents;
+	text-align: center;
+}
+
+
+.employee-id {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.15;
+}
+
+.departments-sections {
+	text-align: center;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1C3879;
+}
+
+#employeeCARDmain {
+	gap: 15px;
+	text-align: center;
+}
+
+#marketing, #finance,#development,#administration {
+	padding-top: 30px;
+}

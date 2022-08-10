@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./style.css">
     <title>HRMS</title>
 </head>
-<body>
+<body id="body">
 
     <header>
-        
-        <h1>HRMS</h1>
+        <div class="header-logo">
+            <img src="./images/hrms.png.png" alt="header-logo" />
+          </div>
+       <!---- <h1>HRMS</h1> -->
         <p> <nav>
 
           <dev>
-            <ul id="nav">
+            <ul class="nav">
             
-                <li ><a href="./index.html">Home</a></li>
-                <li><a href="./accounting.html">Accounting</a></li>
+                <li><a class="nav-item" href="./index.html">Home</a></li>
+                <li><a class="nav-item" href="./accounting.html">Accounting</a></li>
                 
             </ul>
          </dev>  
@@ -28,8 +31,31 @@
     </header>
 
     <main>
+        
+        <section class="employees-cards-section">
+            <h2>Hidden Egg</h2>
+            <div id="employeeCARDmain" class="employee-card-main">
+              
+              <div id="administration">
+                <h3 class="departments-sections">Administration Department</h3>
+              </div>
+              <div id="development">
+                <h3 class="departments-sections">Development Department</h3>
+              </div>
+              <div id="finance">
+                <h3 class="departments-sections">Finance Department</h3>
+              </div>
+              <div id="marketing">
+                <h3 class="departments-sections">Marketing Department</h3>
+              </div>
+      
+            </div>
+            </div>
+            </div>
+          </section>
 
-        <script src="./app.js"></script>
+
+        
         
     </main>
 
@@ -44,7 +70,7 @@
         &copy; Omar Darweesh 2022
     
     </footer>
-    
+    <script src="./app.js"></script>
     
 </body>
 </html>
